@@ -1,0 +1,96 @@
+* {
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+header, nav{
+    background-color: #ffc300;
+    text-align: center;
+    color: white;
+}
+
+main div.centro, main div.lateral{
+    margin: 10px 35px;
+}
+
+body, header h1, header, nav{
+    margin: 0;
+}
+
+header{
+    padding-top: 15px;
+}
+
+header h1{
+    padding: 10px;
+    font-size: 40px;
+}
+
+header span{
+    color: #5b4b2c;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+main{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #fcf8fc;
+    display: flex;
+}
+
+footer {
+    background-color: #78777c;
+    text-align: center;
+    padding: 5px;
+    margin: 20px auto;
+    width: 75%;
+}
+
+nav a:hover{
+    background-color: #ffffff;
+    color: #ffd38c;
+}
+
+main div.centro{
+    flex: 1;
+}
+
+main div.lateral{
+    flex: 0.5;
+}
+
+.centro h2 {
+    color: #f3ca69;
+}
+
+.lateral a{
+    text-decoration: none;
+    color: #ffd38c;
+}
+
+.lateral a:hover{
+    color: #b89968;
+}
+
+.lateral h3{
+    background-color: #dedade;
+    padding: 3px 5px;
+    color: #7a7a7a;
+}
+
+.lateral ul{
+    padding: 0px;
+}
+
+.conteudos {
+    margin-bottom: 70px;
+}
