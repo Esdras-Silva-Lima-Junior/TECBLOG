@@ -10,64 +10,98 @@
     <title>TecBlog</title>
 </head>
 <body>
-    <header>
-        <strong>
-            <h1><span>Tec</span>Blog</h1>
-        </strong>
-    </header>
-    <nav>
-        <strong>
-            <a href="#">Home</a>
-            <a href="#">Jogos</a>
-            <a href="#">Celulares</a>
-            <a href="#">Informática</a>
-            <a href="#">Eletrônicos</a>
-        </strong>
-    </nav>
+    <div id="top">
+        <header>
+            <strong>
+                <h1><span>Tec</span>Blog</h1>
+            </strong>
+        </header>
+        <nav>
+            <strong>
+                <a href="index.html">Home</a>
+                <a href="jogos.html">Jogos</a>
+                <a href="celular.html">Celulares</a>
+                <a href="inform.html">Informática</a>
+                <a href="elet.html">Eletrônicos</a>
+            </strong>
+        </nav>
+    </div>
     <main>
-        <div class="centro">
+        <div id="centro">
+            <!-- Abertura da postagem -->
             <div class="conteudos">
                 <h2>Titulo da postagem 1:</h2>
-                <p><strong>postado em 7 dezembro 2023</strong></p>
-                <img src="../img/imagem1.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt alias voluptatibus nisi dolore illum officiis nemo nobis numquam aspernatur, fuga voluptate perspiciatis cum, nesciunt laborum quasi quia. Delectus, ut?</p>
+                <p class="data"><strong>postado em 7 dezembro 2023</strong></p>
+                <img width="620" src="../img/imagem1.jpg" alt="">
+                <div class="descricao">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt alias voluptatibus nisi dolore illum officiis nemo nobis numquam aspernatur, fuga voluptate perspiciatis cum, nesciunt laborum quasi quia. Delectus, ut
+                    <p>
+                    <a href="#">Leia mais</a>
+                </div>
             </div>
+            <!-- Fechamento da postagem -->
 
+            <!-- Abertura da postagem -->
             <div class="conteudos">
                 <h2>Titulo da postagem 2:</h2>
-                <p><strong>postado em 17 novembro 2002</strong></p>
-                <img src="../img/imagem2.jpg" alt="">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, fugit sint velit reprehenderit a sapiente? Debitis, alias! Iste temporibus minus quidem, eius illum tempore beatae soluta odit officiis, veniam suscipit.</p>
+                <p class="data"><strong>postado em 17 novembro 2002</strong></p>
+                <img width="620" src="../img/imagem2.jpg" alt="">
+                <div class="descricao">
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, fugit sint velit reprehenderit a sapiente? Debitis, alias! Iste temporibus minus quidem, eius illum tempore beatae soluta odit officiis, veniam suscipit.
+                    </p>
+                    <a href="#">Leia mais</a>
+                </div>
             </div>
+            <!-- Fechamento da postagem -->
+
+
         </div>
-        <div class="lateral">
-            <div>
+        <div id="lateral">
+            <div id="recentes">
                 <h3><strong>Postagens recentes</strong></h3>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit, Hic.
-                </p>
-                <a href="#">Leia mais</a>
 
-                <hr>
+                <!-- Inicio da postagem recente 1 -->
+                <div class="postagens">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit, Hic.
+                    </p>
+                    <a href="#">Leia mais</a>
+                </div>
+                <!-- Fim da postagem recente 1 -->
 
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                </p>
-                <a href="#">Leia mais</a>
+                <!-- Inicio da postagem recente 2 -->
+                <div class="postagens" style="border-bottom: none;">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    </p>
+                    <a href="#">Leia mais</a>
+                </div>
+                <!-- Fim da postagem recente 2 -->
             </div>
-            <div>
+            <div id="categoria">
                 <h3>Categorias</h3>
                 <ul>
-                    <a href="#">Jogos</a><br>
-                    <a href="#">Celulares</a><br>
-                    <a href="#">Informática</a><br>
-                    <a href="#">Eletrônicos</a><br>
+                    <a href="jogos.html">Jogos</a><br>
+                    <a href="celular.html">Celulares</a><br>
+                    <a href="inform.html">Informática</a><br>
+                    <a href="elet.html">Eletrônicos</a><br>
+                </ul>
+            </div>
+            <div id="contato">
+                <h3>Contato</h3>
+                <ul>
+                    <a href="https://www.instagram.com/esdras_14j/" target="_blank">Instagram</a><br>
+                    <a href="https://www.linkedin.com/in/esdras-silva-de-lima-junior-968879231" target="_blank">Linkedin</a><br>
+                    <a href="https://github.com/Esdras-Silva-Lima-Junior" target="_blank">Github</a><br>
+                    <a href="mailto:esdrassilva14j@gmail.com" target="_blank">esdrassilva14j@gmail.com</a>
                 </ul>
             </div>
         </div>
+        <div id="footer">
+            <p>Todos os direitos reservados: <strong>Esdras Silva de Lima Junior</strong></p>
+        </div>
     </main>
-    <footer>
-        <p>Todos os direitos reservados: <strong>Esdras Silva de Lima Junior</strong></p>
-    </footer>
 </body>
 </html>

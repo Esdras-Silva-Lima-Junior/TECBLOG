@@ -1,96 +1,145 @@
-* {
-    font-family: 'Hedvig Letters Sans', sans-serif;
-}
+/*
+***** Limpar formatações padrões *****
+*/
 
-header, nav{
-    background-color: #ffc300;
-    text-align: center;
-    color: white;
-}
-
-main div.centro, main div.lateral{
-    margin: 10px 35px;
-}
-
-body, header h1, header, nav{
-    margin: 0;
-}
-
-header{
-    padding-top: 15px;
-}
-
-header h1{
-    padding: 10px;
-    font-size: 40px;
-}
-
-header span{
-    color: #5b4b2c;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-}
-
-nav{
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
-
-main{
-    margin: 0 auto;
-    width: 80%;
-    background-color: #fcf8fc;
-    display: flex;
-}
-
-footer {
-    background-color: #78777c;
-    text-align: center;
-    padding: 5px;
-    margin: 20px auto;
-    width: 75%;
-}
-
-nav a:hover{
-    background-color: #ffffff;
-    color: #ffd38c;
-}
-
-main div.centro{
-    flex: 1;
-}
-
-main div.lateral{
-    flex: 0.5;
-}
-
-.centro h2 {
-    color: #f3ca69;
-}
-
-.lateral a{
-    text-decoration: none;
-    color: #ffd38c;
-}
-
-.lateral a:hover{
-    color: #b89968;
-}
-
-.lateral h3{
-    background-color: #dedade;
-    padding: 3px 5px;
-    color: #7a7a7a;
-}
-
-.lateral ul{
+*{
+    margin: 0px;
     padding: 0px;
 }
 
-.conteudos {
-    margin-bottom: 70px;
+body{
+    font-size: 1em;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    background-color: white;
+}
+
+/*
+***** Layout *****
+*/
+
+#top{
+    background-color: gray;
+    padding: 15px;
+    text-align: center;
+}
+
+header, nav{
+    padding: 10px;
+}
+
+main{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#centro, #lateral{
+    background-color: white;
+}
+
+#centro{
+    width: 660px;
+    float: left;
+}
+
+#lateral{
+    width: 240px;
+    float: right;
+}
+
+.conteudos{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.postagens{
+    padding: 10px;
+    border-bottom: 1px solid darkgray;
+}
+
+#lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#categoria{
+    margin-top: 30px;
+}
+
+#contato{
+    margin-top: 30px;
+}
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+}
+
+/*
+***** Formatação do nav
+*/
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+a:link, a:visited{
+    color: gray;
+}
+ 
+a:hover{
+    text-decoration: underline;
+}
+
+nav a:link, nav a:visited{
+    color: #fff;
+}
+ 
+nav a:hover{
+    color: gray;
+    text-decoration: none;
+    background-color: white;
+}
+
+/*
+***** Formatação geral *****
+*/
+
+header h1{
+    color: black;
+    font-size: 2em;
+}
+
+header span{
+    color: white;
+}
+
+h2{
+    color: gray;
+}
+
+h3{
+    background-color: darkgray;
+    padding: 7px;
+}
+
+ul{
+    padding: 7px;
+}
+
+.data{
+    font-size: 0.9em;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#recentes p{
+    font-size: 0.9em;
+    padding: 5px;
 }
